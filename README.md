@@ -26,3 +26,6 @@ CATCH: signum=15, stopping the process...
                 # and we're waiting the ending before doing final work.
 [Work after running the app or getting stop signals]
 ```
+
+## Related links
+* [Trapping signal from “docker stop” in bash](https://stackoverflow.com/questions/20602675/trapping-signal-from-docker-stop-in-bash/20606897#20606897)
