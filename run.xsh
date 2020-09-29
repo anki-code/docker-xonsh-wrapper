@@ -1,4 +1,5 @@
 #!/usr/bin/env xonsh
+# https://github.com/anki-code/docker-xonsh-wrapper
 
 import subprocess, signal
 from xonsh.tools import print_color
