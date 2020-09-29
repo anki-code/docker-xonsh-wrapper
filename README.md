@@ -8,6 +8,8 @@ To achieve this install xonsh in the container and use `run.xsh` as an entrypoin
 ## Build and run the demo container
 
 ```shell script
+git clone https://github.com/anki-code/xonsh-docker-wrapper
+cd xonsh-docker-wrapper
 docker build . -t local/xonsh-docker-wrapper
 docker run --rm -it local/xonsh-docker-wrapper
 ```
