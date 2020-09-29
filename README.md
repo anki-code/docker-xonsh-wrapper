@@ -28,4 +28,5 @@ CATCH: signum=15, stopping the process...
 ```
 
 ## Related links
+* Real life example - [metabase-sql-wrapper](https://github.com/anki-code/metabase-sql-wrapper)
 * [Trapping signal from “docker stop” in bash](https://stackoverflow.com/questions/20602675/trapping-signal-from-docker-stop-in-bash/20606897#20606897)
