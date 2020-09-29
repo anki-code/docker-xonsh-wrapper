@@ -1,4 +1,4 @@
-**xonsh-docker-wrapper** shows the way to wrap an app (e.g. server) in docker container using [xonsh shell](https://xon.sh/contents.html) to:
+**docker-xonsh-wrapper** shows the way to wrap an app (e.g. server) in docker container using [xonsh shell](https://xon.sh/contents.html) to:
  * catching the signals from docker
  * doing work before starting the app
  * doing work after stopping the app
