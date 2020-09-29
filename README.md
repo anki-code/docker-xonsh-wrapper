@@ -8,15 +8,15 @@ To achieve this install xonsh in the container and use `run.xsh` as an entrypoin
 ## Build and run the demo container
 
 ```shell script
-git clone https://github.com/anki-code/xonsh-docker-wrapper
+git clone https://github.com/anki-code/docker-xonsh-wrapper
 cd xonsh-docker-wrapper
-docker build . -t local/xonsh-docker-wrapper
-docker run --rm -it local/xonsh-docker-wrapper
+docker build . -t local/docker-xonsh-wrapper
+docker run --rm -it local/docker-xonsh-wrapper
 ```
 
 ## Example
 ```shell script
-$ docker run --rm -it local/xonsh-docker-wrapper
+$ docker run --rm -it local/docker-xonsh-wrapper
 [Work before running the app]
 The app just sleep 2 minutes zZzZzZz...
                 # Run docker stop, docker restart or press Ctrl+C
