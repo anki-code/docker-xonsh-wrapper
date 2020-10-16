@@ -23,16 +23,6 @@ class Process:
 if __name__ == '__main__':
     echo '[Work before running the app]'
 
-    #Example of registering environment variables to convert them to pathlib.Path type
-    #
-    #env = __xonsh__.env
-    #env.register('MY_FILE', 'path', default=p'/volume/my_file.txt')
-    #env.register('MY_TARGET_DIR', 'path', default=p'/volume/my_target_dir')
-    #
-    #if not $MY_TARGET_DIR.exists():
-    #    mkdir -p $MY_TARGET_DIR
-    #    cp $MY_FILE $MY_TARGET_DIR
-
 
     echo "The app just sleep 2 minutes zZzZzZz..."
     p = Process('sleep 2m')
