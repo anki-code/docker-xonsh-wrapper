@@ -5,6 +5,8 @@
 
 To achieve this install xonsh in the container and use `run.xsh` as an entrypoint.
 
+If you like the idea of xxh click ⭐ on the repo and stay tuned.
+
 ## Build and run the demo container
 
 ```shell script
