@@ -1,0 +1,13 @@
+name: Test
+
+on: push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Test
+      run: |
+        docker build . -t local/docker-xonsh-wrapper
+        docker run --rm local/docker-xonsh-wrapper
