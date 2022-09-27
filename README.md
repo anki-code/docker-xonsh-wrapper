@@ -21,11 +21,15 @@ docker run --rm -it local/docker-xonsh-wrapper
 docker run --rm -it local/docker-xonsh-wrapper
 # [Work before running the app]
 # The app just sleep 2 minutes zZzZzZz...
+#
 #                 # Run docker stop, docker restart or press Ctrl+C
+#
 # CATCH: signum=15, stopping the process...            
+#
 #                 # After getting closing signal the app could take time 
 #                 # to stopping (closing the database, clean the memory) 
 #                 # and we're waiting the ending before doing final work.
+#
 # [Work after running the app or getting stop signals]
 ```
 
